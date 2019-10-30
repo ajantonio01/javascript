@@ -1,0 +1,15 @@
+body {
+    background-color: #D97171;
+}
+
+.title{
+    text-align: center;
+    font-family: Arial;
+}
+
+blockquote{
+    font-size: 2em;
+    font-family: Arial;
+    text-shadow: 2px 2px #000;
+    color: white;
+}
