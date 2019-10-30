@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<style>
+			body {
+				background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('farm.jpeg');
+				background-color: #24292e;
+				background-blend-mode: darken;
+				background-repeat: no-repeat;
+				background-size: cover;
+				overflow: hidden;
+			}
+		</style>
+
+	</head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/Icon.js"></script>
+	<script src="js/processing.min.js"></script>
+
+	<body>
+
+	<ul class="nav d-flex flex-md-row bg-success">
+		<li class="nav-item active pl-3">
+			<a class="nav-link text-white" href="signup.html"><h5>Farm<span class="bg-dark pl-1 pr-1 text-warning">hub</span></h5></a>
+		</li>
+		<li class="nav-item active pl-3">
+      <a class="nav-link text-white" href="about1.html"><h5>About</span></h5></a>
+    </li>
+		<li class="nav-item active ml-auto">
+			<a class="nav-link text-white" href="login.html"><h5>Login</h5></a>
+		</li>
+		<li class="nav-item active pl-4">
+			<a class="nav-link text-white" href="signup.html"><h5>Sign up</h5></a>
+		</li>
+	</ul>
+	
+	<section class="container-fluid" id = "forTableLogin">
+		<div class="d-flex text-dark bg-light mt-5">
+			<div class = "text pt-5 pr-4">
+				<h2 class = "ml-3 text-center font-weight-bold"><img src="grass.png" class="grass pb-1"><span id="login2">LOGIN</span><img src="grass.png" class="grass"></h2>
+					</div>
+					<div class="verticalLine mr-3">
+					</div>
+			<form action="nav.html" name="myForm" id="theForm" method="post">
+				<div class = "form-row mt-3">
+					<div class="form-group col-lg-11">
+						<label for ="Username" id="username"><b>Username</b></label>
+						<input type = "text" class = "form-control" id = "Username" placeholder = "Enter your Username">
+				</div>
+				<div class="form-group col-lg-11">
+						<label for ="Password" id="password"><b>Password</b></label>
+						<input type = "password" class = "form-control" id = "Password" placeholder = "Enter your Password">
+				</div>
+				<div class="form-group col-lg-12">
+					<a href="#" id="forgotPass">Forgot password?</a>
+				</div>
+				
+	
+				<div class="form-group col-lg-12 mt-2">
+					<button type="submit" class="btn btn-primary" id="login" onclick="window.location.href='Nav.html';" value="submit">Login</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	</section>
+<script>
+		document.getElementById("forgotPass").addEventListener("click", function(){
+		document.getElementById("username").innerHTML = "<b>Email</b>";
+		document.getElementById("Username").placeholder = "Enter your Email";
+		document.getElementById("password").innerHTML = "<b>New Password</b>";
+		document.getElementById("Password").placeholder = "Enter your New Password";
+		document.getElementById("forgotPass").innerHTML = "";
+		document.getElementById("login2").innerHTML = "Password";
+		document.getElementById("login").innerHTML = "Submit";
+	});
+	</script>
+
+	</body>
+	</html>

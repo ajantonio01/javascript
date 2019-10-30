@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<style>
+			body {
+				background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('farm.jpeg');
+				background-color: #24292e;
+				background-blend-mode: darken;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: #010000;
+
+			}
+
+			@media only screen and (min-width: 500px) {
+				body{
+					overflow-x: hidden;
+				}
+			}
+
+			@media only screen and (min-width: 500px){
+				#forMargin {
+					margin-top: 35px;
+					align-items: center;
+				}
+			}
+
+		</style>
+			<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/Icon.js"></script>
+	<script src="js/processing.min.js"></script>
+	</head>
+	<body>
+
+	<ul class="nav d-flex flex-md-row bg-success">
+		<li class="nav-item active pl-3">
+			<a class="nav-link text-white" href="signup2.html"><h5>Farm<span class="bg-dark pl-1 pr-1 text-warning">hub</span></h5></a>
+		</li>
+    <li class="nav-item active pl-3">
+      <a class="nav-link text-white" href="about1.html"><h5>About</span></h5></a>
+    </li>
+		<li class="nav-item active ml-auto">
+			<a class="nav-link text-white" href="login.html"><h5>Login</h5></a>
+		</li>
+		<li class="nav-item active pl-4">
+			<a class="nav-link text-white" href="signup.html"><h5>Sign up</h5></a>
+		</li>
+	</ul>
+	<section class="container-fluid" id = "forMargin">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-6 d-inline text-center pr-5 pb-5 d-none d-md-block mb-5">
+					<div class="badge text-wrap mr-5">
+				<h1 class="mb-5 text-white pr-5" id="h1size"><span class="ml-2">Farm</span><span class="bg-dark pl-1 pr-1 text-warning">hub</span></h1>
+				<p class="text-white pl-5 font-italic pMedia" id ="psize">We provide trusted communication between local retailers and farmers</p>
+					</div>
+	</div>
+	<div class = "container mt-5 float-right mr-5 text-dark bg-light forForms" id="forTable2">
+		<form>
+			<b class="text-primary">Step 2 of 2</b>
+      <br>
+    <div class="form-row">
+    	<div class="form-group col-md-6 ml-1">
+    		<i class="text-secondary">Choose your offered products</i>
+    	</div>
+    	      		<i class="text-secondary">Choose your desired transportation</i>
+    </div>
+    	<div class = "form-row">
+    	<div class="form-group col-md-6">
+      		<label for="transport"><b>Products</b></label>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Livestock
+      			</label>
+      		</div>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Fruits
+      			</label>
+      		</div>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Grains
+      			</label>
+      		</div>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Fish
+      			</label>
+      		</div>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Vegetables
+      			</label>
+      		</div>
+
+</div>
+      			<div class="form-group col-md-6">
+      		<label for="transport"><b>Transportation</b></label>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Land
+      			</label>
+      		</div>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Air
+      			</label>
+      		</div>
+      		<div class="form-check">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				Sea
+      			</label>
+      		</div>
+      		</div>
+          <br><br>
+      <div class="form-group col-md-12 ml-1 mt-2">
+        <b>Profile picture</b>
+        <br><br>
+        <input type="file" id="myFile">
+      </div>
+<div class="form-group col-md-12 mt-1">
+<div class="form-row">
+<div class="form-check">
+      			<input class="form-check-input" name="Terms" type="radio" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+      				You agree to our <a href="#"><i>Terms & Services</i></a>. You may recieve SMS 
+      				notifications from us and can opt out anytime.
+      			</label>
+      		</div>
+</div>
+</div>
+</div>
+<button class="btn btn-primary" type="submit" id="btn" onclick="radioChecked()">Sign up</button>
+</form>
+</div>
+</div>
+</section>
+<br><br><br><br><br><br><br><br>
+	<script>
+		function radioChecked(){
+			if ($("input[name='Terms']").is(':checked')){
+			alert("Thank you for signing up. You may now login to the website.");
+			window.location = "login.html";
+			}
+			else{
+				alert("You didn't agree to our Terms & Services. Try again.");
+			}
+		}
+	</script>
+</body>
+</html>

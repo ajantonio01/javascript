@@ -1,0 +1,202 @@
+li button {
+	height: 135px;
+	width: 145px;
+	font-family: Arial;
+	margin-top: 20px;
+	font-size: 28px;
+}
+
+li a .locations{
+	height: 135px;
+	width: 145px;
+	font-family: Arial;
+	margin-top: 20px;
+	font-size: 28px;
+}
+
+.goldAndGrass {
+	height: 35px; 
+	width: 40px;
+}
+
+#forJumbotron {
+	background-color: #d7ec9b;
+}
+
+h2 {
+	font-family: tahoma;
+}
+
+#Account {
+	height: 200px;
+	width: 200px;
+}
+
+#forTable {
+	height: 600px;
+	width: 550px;
+	border-radius: 4px;
+}
+
+#h1size {
+	font-size: 90px;
+}
+
+#psize {
+	font-size: 20px;
+}
+
+@media only screen and (min-width: 400px){
+.pMedia {
+	margin-right: 75px;
+	}
+}
+
+#passwordSize {
+	font-size: 15px;
+}
+
+#forTableLogin {
+	height: 561px;
+	width: 550px;
+}
+
+@media only screen and (min-width: 400px){
+.forForms {
+		width: 250px;
+	}
+}
+
+.grass {
+	height: 70px; 
+	width: 75px;
+}
+
+.verticalLine {
+	border-style: groove;
+	border-width: 1px;
+
+}
+
+div.a{
+	background-color: #545454;
+	height: 300px;
+	width: 100%;
+}
+
+div.b{
+	padding-top: 100px;
+}
+
+h5.h5Size{
+	font-size: 60px;
+}
+
+section.c{
+	line-height: 200%;
+	font-family: Arial;
+}
+
+@media only screen and (min-width: 400px){
+	div.a{
+		height: 100%;
+	}
+}
+
+p.d{
+	color: #B0B0B0;
+}
+
+img.profilepic{
+	width: 240px;
+	height: 200px;
+}
+
+.name{
+	font-family: Arial Black;
+	font-size: 25px;
+}
+
+div.e{
+	float: right !important;
+}
+
+div.f{
+	background-color: #F9F8F9;
+}
+
+.Location{
+	background-color: #FE6F6F;
+}
+
+img.profilepic2{
+	width: 230px;
+	height: 180px;
+}
+
+.borderPic{
+	border-style: solid inset;
+}
+
+.forBorder2{
+	border-style: solid outset;
+}
+
+.description{
+	font-size: 20px;
+}
+
+.forBorder3{
+	border-style: solid outset;
+	border-right: hidden;
+}
+
+.forBorder4{
+	border-style: solid outset;
+	border-left: hidden;
+}
+
+.details {
+	font-size: 20px;
+	font-family: Arial;
+}
+
+#forTable2{
+	height: 450px;
+	width: 550px;
+	border-radius: 4px;
+}
+
+.profilePic1{
+	height: 35px; 
+	width: 40px;
+	border-radius: 50%;
+
+}
+.inputSize{
+	height: 250px;
+	width: 800px;
+}
+
+.forSettings{
+	margin-top: 100px;
+}
+
+.details1 {
+	font-size: 26px;
+	color: lightgreen;
+}
+
+.bgDetails {
+	background-color: black;
+}
+
+.fontSize {
+	font-size: 22px;
+	font-family: Arial
+	color: lightgreen;
+}
+
+.d{
+	line-height: 250%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home page</title>
+	</head>
+	<style>
+body {
+				background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('farm.jpeg');
+				background-color: #24292e;
+				background-blend-mode: darken;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: #010000;
+			}
+		</style>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/Icon.js"></script>
+	<script src="js/processing.min.js"></script>
+	<body>
+
+		<ul class="nav d-flex flex-md-row bg-success">
+		<li class="nav-item active pl-3">
+			<a class="nav-link text-white" href="nav.html"><h5>Farm<span class="bg-dark pl-1 pr-1 text-warning">hub</span></h5></a>
+		</li>
+		<li class="nav-item active ml-auto">
+			<a class="nav-link text-white" href="account.html"><img src="aj.jpg" class="profilePic1 mr-3"><b>Adrian John Antonio</b></a>
+		</li>
+		<li class="nav-item active pl-4">
+			<a class="nav-link text-white" href="signup.html"><h5>Sign out</h5></a>
+		</li>
+	</ul>
+	<div class="center">
+		<div class="container">
+			<div class="text-center">
+			<h1 class="mt-5 mb-5" style="color: #CFFE4E;">What do you want to tell Asia?</h1>
+		</div>
+			<div class="row bg-light">
+				<div class="col-lg-3 text-center borderPic bg-light">
+					<img src="ace.jpg" class="profilepic2 mt-3">
+					<br>
+					<p class="name">John Ace Asia</p>
+					<p><b>Looking for:</b> <u>Fish and Vegetables</u></p>
+					<button class="btn btn-primary mb-3" onclick="window.location.href='asiadetail.html';">Details</button>
+				</div>
+
+				<div class="col-lg-9 pt-3 pl-4 forBorder2 description">
+					<div contenteditable="true" id="myContent" class="inputSize"><div class="text-dark">Message me here...</div>
+			</div>
+			<br>
+					<button class="btn btn-primary mb-3" onclick="window.location.href='pasay.html';">Submit</button>
+				</div>
+		</div>		
+		<br><br><br><br><br>
+</body>
+</html>

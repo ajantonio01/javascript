@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<style>
+			body {
+				background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('farm.jpeg');
+				background-color: #24292e;
+				background-blend-mode: darken;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: #010000;
+
+			}
+
+			@media only screen and (min-width: 500px) {
+				body{
+					overflow-x: hidden;
+				}
+			}
+
+			@media only screen and (min-width: 500px){
+				#forMargin {
+					margin-top: 35px;
+					align-items: center;
+				}
+			}
+
+		</style>
+			<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/Icon.js"></script>
+	<script src="js/processing.min.js"></script>
+	</head>
+	<body>
+
+	<ul class="nav d-flex flex-md-row bg-success">
+		<li class="nav-item active pl-3">
+			<a class="nav-link text-white" href="signup.html"><h5>Farm<span class="bg-dark pl-1 pr-1 text-warning">hub</span></h5></a>
+		</li>
+		<li class="nav-item active pl-3">
+      <a class="nav-link text-white" href="about1.html"><h5>About</span></h5></a>
+    </li>
+		<li class="nav-item active ml-auto">
+			<a class="nav-link text-white" href="login.html"><h5>Login</h5></a>
+		</li>
+		<li class="nav-item active pl-4">
+			<a class="nav-link text-white" href="signup.html"><h5>Sign up</h5></a>
+		</li>
+	</ul>
+	<section class="container-fluid" id = "forMargin">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-6 d-inline text-center pr-5 pb-5 d-none d-md-block mb-5">
+					<div class="badge text-wrap mr-5">
+				<h1 class="mb-5 text-white pr-5" id="h1size"><span class="ml-2">Farm</span><span class="bg-dark pl-1 pr-1 text-warning">hub</span></h1>
+				<p class="text-white pl-5 font-italic pMedia" id ="psize">We provide trusted communication between local retailers and farmers</p>
+					</div>
+	</div>
+	<div class = "container mt-5 float-right mr-5 text-dark bg-light forForms" id = "forTable">
+		<form>
+			<b class="text-primary">Step 1 of 2</b>
+		<div class = "form-row mt-4">
+			<div class = "form-group col-md-6">
+				<label for = "firstName"><b>First Name</b></label>
+				<input type = "text" class = "form-control" id = "firstName" placeholder="Enter your First Name">
+			</div>
+			<div class = "form-group col-md-6">
+				<label for = "lastName"><b>Last Name</b></label>
+				<input type = "text" class = "form-control" id = "lastName" placeholder="Enter your Last Name">
+			</div>
+		</div> 
+		<div class="form-row">
+    		<div class="form-group col-md-12">
+      			<label for="forUsername"><b>Username</b></label>
+      			<input type="text" class="form-control" id="forUsername" placeholder="Enter your Username">
+    	</div>
+    		<div class="form-group col-md-12">
+     			 <label for="forPassword"><b>Password</b></label>
+     			 <input type="password" class="form-control" id="forPassword" placeholder="Enter your Password">
+     			 <p class="pl-1" id="passwordSize"><i>* Make sure your password has an uppercase letter, lowercase letter, numbers and special characters.</i></p>
+    		</div>
+    	</div>
+    	<div class="form-row pl-1">
+    		<div class="form-group col-lg-12">
+      			<label for="forMunicipality" id="municipality"><b>Municipality</b></label>
+      			<input type="text" class="form-control" id="forMunicipality" placeholder="(ex. Pasay)" id="inputMunicipality">
+    	</div>
+    		<div class="form-group col-lg-12">
+      			<label for="forAddress"><b>Address</b></label>
+      			<input type="text" class="form-control" id="forAddress" placeholder="(ex. Street, Brgy. Corner)">
+    	</div>
+    </div>
+
+ 	</form>
+ 	<button class="btn btn-primary" onclick="window.location.href='signup2.html';" type="submit">Next</button>
+ </div>
+
+<script>
+
+</script>
+
+	</body>
+	</html>

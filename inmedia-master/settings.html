@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/Icon.js"></script>
+	<script src="js/processing.min.js"></script>
+
+	<body>
+
+	<ul class="nav d-flex flex-md-row bg-success">
+		<li class="nav-item active pl-3">
+			<a class="nav-link text-white" href="nav.html"><h5>Farm<span class="bg-dark pl-1 pr-1 text-warning">hub</span></h5></a>
+		</li>
+		<li class="nav-item active ml-auto">
+			<a class="nav-link text-white" href="account.html"><img src="aj.jpg" class="profilePic1 mr-3"><b>Adrian John Antonio</b></a>
+		</li>
+		<li class="nav-item active pl-4">
+			<a class="nav-link text-white" href="signup.html"><h5>Sign out</h5></a>
+		</li>
+	</ul>
+
+<div class = "container-fluid jumbotron">
+<div class="row">
+	<div class="col-lg-3 border text-center">
+		<table class="table">
+			<tbody>
+				<tr>
+					<td><i class="fas fa-cogs fa-6x"></i></td>
+				</tr>	
+			</tbody>
+			<tbody>
+				<tr>
+					<td class="name">Settings</td>	
+				</tr>
+			</tbody>
+		</table>
+	</div>	
+	<div class="col-lg-7 border p-5 border-right-0 f details">
+		<p style="font-size: 20px;">Allow other users to view all of your details (Except password)</p>
+		<i>The application won't hold any responsibilities if in case anything happens to you by enabling this feature</i>
+		<div class="mt-5">
+			<p style="font-size: 20px;">Allow the application to send you notification if someone messages you</p>
+		</div>
+		<div class="mt-5">
+			<p style="font-size: 20px;">Allow Autofill feature</p>
+			<i>It means that your login information will automatically fill out the form necessary 
+			to log in to the application</i>
+		</div>
+			<div class="mt-5">
+				<button type="submit" class="btn btn-primary mr-5" id="apply" onclick="alertUser()" 
+				value="submit">Apply</button>
+			</div>
+		</div>
+	<div class="col-lg-1 e border p-5 border-left-0 f details">
+			<div class="form-check mt-2">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+		</div>
+		<div class="form-check forSettings">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+		</div>
+		<div class="form-check forSettings">
+      			<input class="form-check-input" type="checkbox" value="" id="box">
+      			<label class="form-check-label" for="defaultCheck1">
+
+		</div>
+		
+</div>
+</div>
+<script>
+	function alertUser(){
+		alert("You have successfully applied any changes.")
+	}
+	</script>
+</body>
+</html>
